@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 63.3%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+  background-color: hsl(207deg, 26%, 17%);
+  /*LIGHT MODE COUNTRIES; HEADER AND FILTER*/
+  /*LIGHT MODE COUNTRY*/
+}
+body.light-theme {
+  color: hsla(200deg, 15%, 8%, 0.8);
+  background-color: hsl(0deg, 0%, 93%);
+}
+body.light-theme .header {
+  color: hsla(200deg, 15%, 8%, 0.8);
+  background-color: hsl(0deg, 0%, 93%);
+}
+body.light-theme .header h1 {
+  color: hsla(200deg, 15%, 8%, 0.8);
+}
+body.light-theme .header .btn-toggle {
+  color: hsla(200deg, 15%, 8%, 0.8);
+}
+body.light-theme .container form {
+  color: hsla(200deg, 15%, 8%, 0.8);
+  background-color: hsl(0deg, 0%, 93%);
+}
+body.light-theme .container form input {
+  color: hsla(200deg, 15%, 8%, 0.8);
+  background-color: hsl(0deg, 0%, 93%);
+}
+body.light-theme .container .select {
+  color: hsla(200deg, 15%, 8%, 0.8);
+  background-color: hsl(0deg, 0%, 100%);
+}
+body.light-theme .container .form-control {
+  background-color: hsl(0deg, 0%, 100%);
+}
+body.light-theme .container form .icon-search {
+  color: hsla(200deg, 15%, 8%, 0.8);
+}
+body.light-theme .container form input::-moz-placeholder {
+  color: hsla(200deg, 15%, 8%, 0.8);
+  background-color: hsl(0deg, 0%, 100%);
+  padding: 1rem 0;
+  border-radius: 1rem;
+}
+body.light-theme .container form input:-ms-input-placeholder {
+  color: hsla(200deg, 15%, 8%, 0.8);
+  background-color: hsl(0deg, 0%, 100%);
+  padding: 1rem 0;
+  border-radius: 1rem;
+}
+body.light-theme .container form input::placeholder,
+body input[type=search] {
+  color: hsla(200deg, 15%, 8%, 0.8);
+  background-color: hsl(0deg, 0%, 100%);
+  padding: 1rem 0;
+  border-radius: 1rem;
+}
+body.light-theme .loading {
+  color: hsl(209deg, 23%, 22%);
+}
+body.light-theme .grid .country .card-text {
+  color: hsla(200deg, 15%, 8%, 0.8);
+  background-color: hsl(0deg, 0%, 100%);
+}
+body.light-theme .grid .country span {
+  color: hsl(0deg, 0%, 52%);
+}
+body.light-theme .single-country .btn {
+  background-color: hsl(0deg, 0%, 93%);
+  color: hsl(209deg, 23%, 22%);
+}
+body.light-theme .single-country article {
+  background-color: hsl(0deg, 0%, 93%);
+}
+body.light-theme .single-country article .country-inner .country-details .details h2 {
+  color: hsl(209deg, 23%, 22%);
+}
+body.light-theme .single-country article .country-inner .country-details .details h5 {
+  color: hsl(209deg, 23%, 22%);
+}
+body.light-theme .single-country article .country-inner .country-details .details h5 span {
+  color: hsl(0deg, 0%, 52%);
+}
+body.light-theme .single-country article .country-inner .country-details .top-level h5 {
+  color: hsl(209deg, 23%, 22%);
+}
+body.light-theme .single-country article .country-inner .country-details .top-level h5 span {
+  color: hsl(0deg, 0%, 52%);
+}
+body.light-theme .single-country article .country-inner .border-details h3 {
+  color: hsl(209deg, 23%, 22%);
+}
+body.light-theme .single-country article .country-inner .border-details ul li {
+  background-color: hsl(0deg, 0%, 100%);
+  color: hsl(209deg, 23%, 22%);
+}
+
+.loading {
+  color: hsla(0deg, 0%, 100%, 0.8);
+}
+.loading.light-theme .loading {
+  color: hsl(0deg, 0%, 52%);
+}
+
+h1 {
+  font-size: 2.4rem;
+}/*# sourceMappingURL=main.css.map */

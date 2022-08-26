@@ -1,0 +1,100 @@
+@import "../variables/_variables.scss";
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+  background-color: $veryDarkBlue;
+
+  /*LIGHT MODE COUNTRIES; HEADER AND FILTER*/
+
+  &.light-theme {
+    color: $lightModeText;
+    background-color: $lightModeBackground;
+  }
+  &.light-theme .header {
+    color: $lightModeText;
+    background-color: $lightModeBackground;
+  }
+  &.light-theme .header h1 {
+    color: $lightModeText;
+  }
+  &.light-theme .header .btn-toggle {
+    color: $lightModeText;
+  }
+  &.light-theme .container form {
+    color: $lightModeText;
+    background-color: $lightModeBackground;
+  }
+  &.light-theme .container form input {
+    color: $lightModeText;
+    background-color: $lightModeBackground;
+  }
+
+  &.light-theme .container .select {
+    color: $lightModeText;
+    background-color: $lightModeElements;
+  }
+  &.light-theme .container .form-control {
+    background-color: $lightModeElements;
+  }
+  &.light-theme .container form .icon-search {
+    color: $lightModeText;
+  }
+  &.light-theme .container form input::placeholder,
+  input[type="search"] {
+    color: $lightModeText;
+    background-color: $lightModeElements;
+    padding: 1rem 0;
+    border-radius: 1rem;
+  }
+  &.light-theme .loading {
+    color: $darkBlue;
+  }
+  &.light-theme .grid .country .card-text {
+    color: $lightModeText;
+    background-color: $lightModeElements;
+  }
+  &.light-theme .grid .country span {
+    color: $lighModeInput;
+  }
+  /*LIGHT MODE COUNTRY*/
+
+  &.light-theme .single-country .btn {
+    background-color: $lightModeBackground;
+    color: $darkBlue;
+  }
+
+  &.light-theme .single-country article {
+    background-color: $lightModeBackground;
+  }
+  &.light-theme .single-country article .country-inner .country-details .details h2 {
+    color: $darkBlue;
+  }
+  &.light-theme .single-country article .country-inner .country-details .details h5 {
+    color: $darkBlue;
+  }
+  &.light-theme .single-country article .country-inner .country-details .details h5 span {
+    color: $lighModeInput;
+  }
+  &.light-theme .single-country article .country-inner .country-details .top-level h5 {
+    color: $darkBlue;
+  }
+  &.light-theme .single-country article .country-inner .country-details .top-level h5 span {
+    color: $lighModeInput;
+  }
+  &.light-theme .single-country article .country-inner .border-details h3 {
+    color: $darkBlue;
+  }
+  &.light-theme .single-country article .country-inner .border-details ul li {
+    background-color: $lightModeElements;
+    color: $darkBlue;
+  }
+}
+.loading {
+  color: $textColor;
+  &.light-theme .loading {
+    color: $lighModeInput;
+  }
+}
+h1 {
+  font-size: 2.4rem;
+}

@@ -1,0 +1,29 @@
+//reset
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+//colors
+$textColor: hsla(0, 0%, 100%, 0.8);
+$veryDarkBlue: hsl(207, 26%, 17%);
+$darkBlue: hsl(209, 23%, 22%);
+$colorInput: rgba(255, 255, 255, 0.8);
+$colorInputPlaceholder: rgba(255, 255, 255, 0.5);
+$lightModeText: hsla(200, 15%, 8%, 0.8);
+$lighModeInput: hsl(0, 0%, 52%);
+$lightModeBackground: hsl(0, 0%, 93%);
+$lightModeElements: hsl(0, 0%, 100%);
+
+//fonts
+
+html {
+  font-size: 63.3%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+//mixin

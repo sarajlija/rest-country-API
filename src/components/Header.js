@@ -3,7 +3,7 @@ import "../styles/Header.css"
 import { FaMoon } from "react-icons/fa"
 function Header() {
   const changeTheme = () => {
-    const btn = document.querySelector(".btn-toggle")
+    document.body.classList.toggle("light-theme")
    
   }
   return (
